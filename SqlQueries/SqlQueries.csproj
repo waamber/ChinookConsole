@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\InsertInvoice.cs" />
+    <Compile Include="DataAccess\InvoiceInfo.cs" />
+    <Compile Include="DataAccess\InVoiceLineInfo.cs" />
+    <Compile Include="DataAccess\Models\Employee.cs" />
+    <Compile Include="DataAccess\Models\Invoice.cs" />
+    <Compile Include="DataAccess\InvoicesByAgent.cs" />
+    <Compile Include="DataAccess\Models\InvoiceLine.cs" />
+    <Compile Include="DataAccess\UpdateEmployee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
